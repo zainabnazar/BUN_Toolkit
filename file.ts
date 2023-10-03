@@ -3,7 +3,7 @@
 // await Bun.write('output.txt', data);
 
 
-// to read fro ma file
+// to read from a file
 
 const file= await Bun.file('output.txt')
 console.log(await file.text())
